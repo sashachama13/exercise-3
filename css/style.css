@@ -112,25 +112,36 @@ h2 {
   /* line 48, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
   .navigation ul li {
     list-style-type: none;
-    display: block; }
+    display: inline-block; }
     /* line 51, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
     .navigation ul li a {
       display: inline-block;
       padding: 0.5em 1em;
       text-align: center;
       text-decoration: none;
-      color: #ccc; }
+      color: #00F;
+      background-color: #FF0; }
 
 /* line 63, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+ul li a:hover {
+  color: #DA70D6;
+  transition: 0.3s ease; }
+
+/* line 68, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+a:hover {
+  color: #DA70D6;
+  transition: 0.3s ease; }
+
+/* line 74, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
 .toggle-btn, .close-btn {
   color: #00F;
   height: 40px;
   width: 40px; }
-  /* line 67, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+  /* line 78, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
   .toggle-btn i, .close-btn i {
     border: 5px solid #FF0;
     padding: 0.5em; }
-  /* line 71, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+  /* line 82, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
   .toggle-btn span, .close-btn span {
     text-indent: 100%;
     white-space: nowrap;
@@ -138,13 +149,13 @@ h2 {
     display: block; }
 
 @media only screen and (max-width: 60em) {
-  /* line 83, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+  /* line 94, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
   .site-wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
     z-index: 100%; }
-    /* line 88, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+    /* line 99, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
     .site-wrapper .sliding-canvas {
       width: 100%;
       height: 100%;
@@ -153,16 +164,16 @@ h2 {
           -ms-transform: translateX(0);
               transform: translateX(0);
       transition: all 300ms ease-in-out; }
-    /* line 99, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+    /* line 110, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
     .site-wrapper[data-state="slide-open"] .sliding-canvas {
       -webkit-transform: translateX(-100%);
           -ms-transform: translateX(-100%);
               transform: translateX(-100%); }
-    /* line 104, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+    /* line 115, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
     .site-wrapper[data-state="slide-open"] {
       overflow: visible; }
 
-  /* line 111, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+  /* line 122, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
   .slide-menu {
     position: absolute;
     width: 100%;
@@ -174,11 +185,11 @@ h2 {
  }
 
 @media only screen and (min-width: 60em) {
-  /* line 128, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+  /* line 139, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
   .toggle-btn, .close-btn {
     display: none; }
 
-  /* line 131, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+  /* line 142, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
   .slide-menu {
     position: static;
     right: auto; }

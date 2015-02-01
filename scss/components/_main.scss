@@ -47,16 +47,27 @@ h2{
     @include zero;
     li{
         list-style-type: none;
-        display: block;
+        display: inline-block;
         a{
             display: inline-block;
             padding: .5em 1em;
             text-align: center;
             text-decoration: none;
-            color: $light-grey;
+            color: $blue; 
+            background-color: $yellow;
         }
       
     }
+}
+
+ul li a:hover {
+ color: $pink;
+ transition:  .3s ease;
+}
+
+a:hover{
+    color: $pink;
+    transition:  .3s ease;
 }
 
 .toggle-btn,
