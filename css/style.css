@@ -103,7 +103,7 @@ header {
 
 /* line 42, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
 h2 {
-  color: #00F; }
+  color: #79c610; }
 
 /* line 46, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
 .navigation ul {
@@ -112,20 +112,20 @@ h2 {
   /* line 48, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
   .navigation ul li {
     list-style-type: none;
-    display: inline-block; }
+    display: block; }
     /* line 51, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
     .navigation ul li a {
       display: inline-block;
       padding: 0.5em 1em;
       text-align: center;
       text-decoration: none;
-      color: #00F;
-      background-color: #FF0; }
+      color: #79c610;
+      border: 3px solid transparent; }
 
 /* line 63, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
 ul li a:hover {
-  color: #DA70D6;
-  transition: 0.3s ease; }
+  transition: 0.7s ease;
+  border-bottom: 3px solid #DA70D6; }
 
 /* line 68, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
 a:hover {
@@ -134,7 +134,7 @@ a:hover {
 
 /* line 74, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
 .toggle-btn, .close-btn {
-  color: #00F;
+  color: #79c610;
   height: 40px;
   width: 40px; }
   /* line 78, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
@@ -193,4 +193,26 @@ a:hover {
   .slide-menu {
     position: static;
     right: auto; }
+
+  /* line 149, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+  .navigation ul {
+    margin: 0;
+    padding: 0; }
+    /* line 151, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+    .navigation ul li {
+      list-style-type: none;
+      display: inline-block; }
+      /* line 154, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+      .navigation ul li a {
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-align: center;
+        text-decoration: none;
+        color: #79c610;
+        border: 3px solid transparent; }
+
+  /* line 166, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+  ul li a:hover {
+    transition: 0.7s ease;
+    border: 3px solid #DA70D6; }
  }

@@ -19,7 +19,7 @@ html {
 
 
 body{
-  font-family: 'Montserrat', sans-serif;
+  font-family: $font-famliy;
   @include zero;
   // Hides close button if there is no js
   &.noscript .close-btn,
@@ -40,29 +40,29 @@ header {
 }
 
 h2{
-    color: $blue;
+    color: $green;
 }
 
 .navigation ul{
     @include zero;
     li{
         list-style-type: none;
-        display: inline-block;
+        display: block;
         a{
             display: inline-block;
             padding: .5em 1em;
             text-align: center;
             text-decoration: none;
-            color: $blue; 
-            background-color: $yellow;
+            color: $green;
+            border: 3px solid transparent;
         }
       
     }
 }
 
 ul li a:hover {
- color: $pink;
- transition:  .3s ease;
+    transition:  .7s ease;
+    border-bottom: 3px solid $pink;
 }
 
 a:hover{
@@ -72,7 +72,7 @@ a:hover{
 
 .toggle-btn,
 .close-btn{
-    color: $blue;
+    color: $green;
     height: 40px;
     width: 40px;
     i{
@@ -146,9 +146,28 @@ a:hover{
     
     }
 
+.navigation ul{
+    @include zero;
+    li{
+        list-style-type: none;
+        display: inline-block;
+        a{
+            display: inline-block;
+            padding: .5em 1em;
+            text-align: center;
+            text-decoration: none;
+            color: $green;
+            border: 3px solid transparent;
+        }
+      
+    }
+}
+    
+    ul li a:hover {
+    transition:  .7s ease;
+    border: 3px solid $pink;
 }
 
 
-
-
+}
 
