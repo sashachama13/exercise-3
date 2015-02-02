@@ -192,17 +192,18 @@ a:hover {
   /* line 142, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
   .slide-menu {
     position: static;
-    right: auto; }
+    right: auto;
+    text-align: center; }
 
-  /* line 149, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+  /* line 150, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
   .navigation ul {
     margin: 0;
     padding: 0; }
-    /* line 151, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+    /* line 152, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
     .navigation ul li {
       list-style-type: none;
       display: inline-block; }
-      /* line 154, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+      /* line 155, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
       .navigation ul li a {
         display: inline-block;
         padding: 0.5em 1em;
@@ -211,7 +212,7 @@ a:hover {
         color: #79c610;
         border: 3px solid transparent; }
 
-  /* line 166, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
+  /* line 167, /Users/alexandrachama/Documents/School/Graphic Design 6/Web Dev/exercise-3/scss/components/main */
   ul li a:hover {
     transition: 0.7s ease;
     border: 3px solid #DA70D6; }
